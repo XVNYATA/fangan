@@ -1,0 +1,11 @@
+【正则式】【.*://(?!((www.|m.|)(example.com|example.com|example.com|example.com|example.com|example.com))|v.|([a-z0-9.-_]*/(player|photo|file|u/0/photos|document/d/|spreadsheets/d/|presentation/d/))|(imgur|pixlr|www.youtube|[a-z]{2}.battle.net|[a-z]{2}.blizzard.com).).*】
+ 
+/*-----------以上为条件---------------*/
+html>*,html>* [style*="url"]:not([style*="base64,R0lGODlhAQABAI"]),img:not([class*="ogo"]),embed,object,video,:-webkit-full-screen:not(iframe),iframe:not(:-webkit-full-screen),frame,canvas{-webkit-filter:invert(1)hue-rotate(180deg)!important}
+html>* :-webkit-any(h1,h2,h3,h4,h5,h6,button,[href="/"],[style*="url"],[role="button"]):not([jsaction]) :not(#⁠){-webkit-filter:none!important}
+*{text-shadow:0 0 .01em}
+option{background-color:#000!important;color:#FFF!important}
+[style*="rgb(0,"][style*="0)"]:not([src]):not(input),
+div:-webkit-any([id*="rap"][id*="ideo"],[class*="rap"][class*="ideo"],#player,.player,#video,.video,#video-player,.video-player):not([src]),
+div:-webkit-any(#player,.player,#video,.video,#video-player,.video-player)>*,
+html>* 
