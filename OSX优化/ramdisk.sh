@@ -15,6 +15,7 @@ CACHEDIR="/Volumes/RamDiskCache/$USER"
 # Chrome Cache
 /bin/rm -rvf ~/Library/Caches/Google/Chrome/*
 /bin/mkdir -pv $CACHEDIR/Google/Chrome/Default
+/bin/mkdir -pv $CACHEDIR/Download
 /bin/ln -v -s $CACHEDIR/Google/Chrome/Default ~/Library/Caches/Google/Chrome/Default
 
 # Chrome Canary Cache
