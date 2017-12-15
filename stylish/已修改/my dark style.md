@@ -54,11 +54,12 @@ html>*,html>* [style*="url"]:not([style*="base64,R0lGODlhAQABAI"]),img:not([clas
 html>* :-webkit-any(h1,h2,h3,h4,h5,h6,button,[href="/"],[style*="url"],[role="button"]):not([jsaction]) :not(#⁠){-webkit-filter:none!important}
 *{text-shadow:0 0 .01em}
 option{background-color:#000!important;color:#FFF!important}
+/*-------------
 [style*="rgb(0,"][style*="0)"]:not([src]):not(input),
 div:-webkit-any([id*="rap"][id*="ideo"],[class*="rap"][class*="ideo"],#player,.player,#video,.video,#video-player,.video-player):not([src]),
 div:-webkit-any(#player,.player,#video,.video,#video-player,.video-player)>*,
 html>* 
-
+---------------*/
 }
 
 @-moz-document url-prefix("about") {
